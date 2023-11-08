@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Martel Sans", sans-serif;
+}
+
+header {
+  background-color: #ffc017;
+}
+
+/* Nav styling */
+nav {
+  display: flex;
+  color: black;
+  padding: 1.6rem 10rem;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  height: 25px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  height: 25px;
+  font-size: 14px;
+  font-family: "Martel Sans", sans-serif;
+  list-style: none;
+}
+
+li + li {
+  margin-left: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.primaryBtn {
+  color: white;
+  background-color: #242424;
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: 1px solid #242424;
+  /* display: inline-block; */
+  margin-left: 16px;
+  font-weight: bold;
+}
+
+.primaryBtn:hover {
+  background-color: black;
+  border-color: black;
+}
+
+.nav-item {
+  display: flex;
+  /* align-items: center; */
+  align-items: baseline;
+}
+
+.logo {
+  width: 162px;
+  height: 25px;
+  /* display: inline; */
+}
+
+.signIn {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+}
+
+section {
+  height: 455px;
+  border-top: 1px #242424 solid;
+  border-bottom: 1px #242424 solid;
+  display: flex;
+  padding: 0 10rem;
+}
+
+/* Herotext styling */
+h1 {
+  font-size: 106px;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  line-height: 95px;
+  width: 550px;
+  letter-spacing: -5.3px;
+  /* text-decoration: none solid rgb(0, 0, 0); */
+}
+
+p {
+  font-size: 24px;
+  height: 48px;
+  color: #242424;
+  line-height: 24px;
+  width: 440px;
+  padding: 40px 0;
+  letter-spacing: -1px;
+}
+
+.herotext {
+  padding: 93px 0 92px 0;
+  width: 1192px;
+}
+
+.readingBtn {
+  padding: 8px 20px;
+  height: 42px;
+  font-size: 20px;
+  font-weight: normal;
+  width: 213px;
+  margin-left: 0;
+}
+
+.animation {
+  display: inline;
+  align-self: center;
+
+  
+}
+
+
