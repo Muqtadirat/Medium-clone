@@ -31,11 +31,58 @@
             <li><a href="#">Our Story</a></li>
             <li><a href="#">Membership</a></li>
             <li><a href="#">Write</a></li>
-            <li><button class="signIn">Sign In</button></li>
+            <li><button class="signInBtn">Sign In</button></li>
           </ul>
           <button class="primaryBtn">Get Started</button>
         </div>
       </nav>
+
+      <!-- Modal -->
+      <div id="modal">
+        <div class="modal-content">
+          <div class="xBtn">
+            <svg class="ox oy" width="29" height="29">
+              <path
+                d="M20.13 8.11l-5.61 5.61-5.6-5.61-.81.8 5.61 5.61-5.61 5.61.8.8 5.61-5.6 5.61 5.6.8-.8-5.6-5.6 5.6-5.62"
+                fill-rule="evenodd"
+              ></path>
+            </svg>
+          </div>
+          
+          <h2>Join Medium.</h2>
+
+          <div class="login">
+            <div class="signUp">
+              <button type="button">Sign up with Google</button>
+              <button type="button">Sign up with Facebook</button>
+              <button type="button">Sign up with email</button>
+            </div>
+
+            <p class="signIn">
+              Already have an account?
+              <a href="#" rel="noopener noreferrer">Sign in</a>
+            </p>
+          </div>
+
+          <p class="policy">
+            Click “Sign up” to agree to Medium’s
+            <a
+              href="https://policy.medium.com/medium-terms-of-service-9db0094a1e0f"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Terms of Service</a
+            >
+            and acknowledge that Medium’s
+            <a
+              href="https://policy.medium.com/medium-privacy-policy-f03bf92035c9"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Privacy Policy</a
+            >
+            applies to you.
+          </p>
+        </div>
+      </div>
 
       <section class="">
         <div class="herotext">
@@ -46,8 +93,9 @@
           <button class="primaryBtn readingBtn">Start reading</button>
         </div>
         <p class="animation">Animation</p>
-        
       </section>
     </header>
+
+    <script src="app.js"></script>
   </body>
 </html>

@@ -72,7 +72,7 @@ button:hover {
   /* display: inline; */
 }
 
-.signIn {
+.signInBtn {
   border: none;
   background-color: transparent;
   font-size: 14px;
@@ -86,6 +86,87 @@ section {
   padding: 0 10rem;
 }
 
+/* Modal styling */
+#modal {
+  background-color: rgba(255, 255, 255, 0.95);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+
+.modal-content {
+  background-color: rgba(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 44px 56px;
+  width: 678px;
+  text-align: center;
+  border-radius: 4px;
+  /* flex: 1 0 auto; */
+  /* min-height: 695px; */
+  height: 566px;
+  margin: 52px 0;
+}
+
+.xBtn{
+  align-self: flex-end;
+  fill: rgb(107, 107, 107)
+}
+
+h2 {
+  font-size: 28px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  flex-grow: 1;
+}
+
+.signUp {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+  font-family: "Martel Sans", sans-serif;
+  margin-bottom: 50px;
+}
+
+.signUp button {
+  border: 1px solid #242424;
+  border-radius: 99em;
+  padding: 8px;
+  background-color: inherit;
+  width: 300px;
+  font-size: 16px;
+  font-family: "Martel Sans", sans-serif;
+}
+
+.signIn a{
+  color: #1A8917;
+  font-weight: bold;
+}
+
+.policy{
+  font-size: 13px;
+  color: #6B6B6B;
+  width: 450px;
+}
+
+.policy a{
+  text-decoration: underline;
+}
+
 /* Herotext styling */
 h1 {
   font-size: 106px;
@@ -97,7 +178,7 @@ h1 {
   /* text-decoration: none solid rgb(0, 0, 0); */
 }
 
-p {
+.herotext p {
   font-size: 24px;
   height: 48px;
   color: #242424;
@@ -124,8 +205,4 @@ p {
 .animation {
   display: inline;
   align-self: center;
-
-  
 }
-
-
